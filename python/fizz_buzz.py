@@ -5,4 +5,4 @@ def fizz_buzz(num):
     if num % 5 == 0:
         string += "buzz"
 
-    return string
+    return string or num

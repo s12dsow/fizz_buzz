@@ -5,6 +5,10 @@ from fizz_buzz import fizz_buzz
 class TestFizzBuzz(unittest.TestCase):
     """Tests for `fizzbuzz.py` ."""
 
+    def test_input_of_1_is(self):
+        """input of 1 returns 1"""
+        self.assertEqual(fizz_buzz(1), 1)
+
     def test_input_of_3_is(self):
         """input of 3 returns fizz"""
         self.assertEqual(fizz_buzz(3), 'fizz')
