@@ -10,6 +10,12 @@ const fizzBuzz = require("../fizzbuzz")
 
 suite('fizzbuzz', () => {
 
+    test('input of 1 returns 1', (done) => {
+
+        expect(fizzBuzz(1)).to.equal(1);
+        done();
+    });
+
     test('input of 3 returns fizz', (done) => {
 
         expect(fizzBuzz(3)).to.equal("fizz");
