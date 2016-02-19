@@ -2,6 +2,10 @@ require 'rspec'
 require_relative 'fizz_buzz'
 
 describe '#fizz_buzz' do
+
+  it 'prints 1 when input is 1' do
+    expect(fizz_buzz(1)).to eq(1)
+  end
   it 'prints fizz when input is 3' do
     expect(fizz_buzz(3)).to eq('fizz')
   end
