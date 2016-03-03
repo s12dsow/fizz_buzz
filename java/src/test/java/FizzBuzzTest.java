@@ -44,5 +44,10 @@ public class FizzBuzzTest {
 
         assertEquals("fizzbuzz", input);
     }
+    @Test
+    public void testFizzBuzzWhenInputIs1() {
+        String input = fizzBuzz.fizzBuzz(1);
 
+        assertEquals("1", input);
+    }
 }

@@ -1,8 +1,12 @@
 public class FizzBuzz {
     public String fizzBuzz(Integer input) {
-        String string = (input % 3 == 0) ? "fizz" : "";
-        string += (input % 5 == 0) ? "buzz" : "";
+        String returnInput = (input % 3 == 0) ? "fizz" : "";
+        returnInput += (input % 5 == 0) ? "buzz" : "";
 
-        return string;
+        if (returnInput.isEmpty()) {
+            return input.toString();
+        }
+        return returnInput;
     }
 }
+
