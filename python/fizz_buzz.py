@@ -1,8 +1,8 @@
 def fizz_buzz(num):
-    string = ""
+    return_string = ""
     if num % 3 == 0:
-        string += "fizz"
+        return_string += "fizz"
     if num % 5 == 0:
-        string += "buzz"
+        return_string += "buzz"
 
-    return string or num
+    return return_string or num

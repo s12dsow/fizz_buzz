@@ -29,7 +29,7 @@ class TestFizzBuzz(unittest.TestCase):
         """input of 15 returns fizzbuzz"""
         self.assertEqual(fizz_buzz(15), 'fizzbuzz')
 
-    def multiple_of_15_is(self):
+    def test_multiple_of_15_is(self):
         """multiple of 15 returns fizzbuzz"""
         self.assertEqual(fizz_buzz(30), 'fizzbuzz')
 
