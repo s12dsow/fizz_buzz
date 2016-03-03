@@ -1,4 +1,3 @@
-require 'rspec'
 require_relative 'fizz_buzz'
 
 describe '#fizz_buzz' do
