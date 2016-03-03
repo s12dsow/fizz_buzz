@@ -1,8 +1,8 @@
 def fizz_buzz(input)
-  str = ''
-  str += 'fizz' if input % 3 == 0
-  str += 'buzz' if input % 5 == 0
+  return_input = ''
+  return_input += 'fizz' if input % 3 == 0
+  return_input += 'buzz' if input % 5 == 0
 
-  str.empty? ? input : str
+  return_input.empty? ? input : return_input
 end
 
